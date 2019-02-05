@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  padding: 10px;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-between;
+}
+
+.component-form {
+  width: 500px;
+  padding: 10px 10px 10px 0;
+}
+
+.form-control {
+  margin-bottom: 1em;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input, .form-control textarea {
+  width: 100%;
+  font-size: 16px;
+  padding: 4px;
+}
+
+.form-control .text-editor {
+  height: 200px;
+  border-color: #ccc;
+}
+
+.submit-button {
+  width: 100%;
+  font-size: 16px;
+  padding: 4px;
+}
+
+.sandbox {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}

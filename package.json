@@ -1,0 +1,8 @@
+{
+  "name": "component-maker",
+  "version": "0.0.0",
+  "description": "UI to generate web components",
+  "main": "index.html",
+  "author": "danston",
+  "license": "MIT"
+}

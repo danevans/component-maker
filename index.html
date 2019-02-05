@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Component Maker</title>
+    <script src="./index.js"></script>
+    <link type="text/css" rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="content">
+      <form id="component-form" class="component-form">
+        <div class="form-control">
+          <label>Tag Name (must have dash)</label>
+          <input id="tag-name" type="text" placeholder="tag-name" autocomplete="off" />
+        </div>
+
+        <div class="form-control">
+          <label>Template (HTML)</label>
+          <textarea id="template" class="text-editor"></textarea>
+        </div>
+
+        <div class="form-control">
+          <label>Styles (CSS)</label>
+          <textarea id="styles" class="text-editor"></textarea>
+        </div>
+
+        <button type="submit" class="submit-button">Create Element</button>
+      </form>
+
+      <div id="sandbox" class="sandbox"></div>
+    </div>
+  </body>
+</html>
